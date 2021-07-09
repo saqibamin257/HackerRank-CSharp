@@ -15,10 +15,15 @@ namespace HackerRank
             #endregion
 
 
-            #region Prob-1:DrawingBook
+            #region Prob-2:DrawingBook
             //Problem-1:DrawingBook
             //Please See Q2 pdf for question details.
-            DrawingBook_Solution.DrawingBook();
+            //DrawingBook_Solution.DrawingBook();
+            #endregion
+
+
+            #region Prob-3:Counting valleys
+            CountingValleys_Solution.CountingValleys();
             #endregion
 
 
