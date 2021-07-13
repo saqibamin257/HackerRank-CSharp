@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/04-Jumping-on-the-clouds.pdf
+/04-CloudsJumping.cs

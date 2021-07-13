@@ -4,9 +4,9 @@ using System.Text;
 
 namespace HackerRank
 {
-   public class altitudeingvalleyCounts_Result
+   public class CountingValleys_Result
     {
-        public static int altitudeingvalleyCounts(int steps, string path)
+        public static int CountingValleys(int steps, string path)
         {
             char[] ch = path.ToCharArray();
             int altitude = 0, valleyCount = 0;
@@ -27,9 +27,9 @@ namespace HackerRank
         }
     }
 
-    public class altitudeingvalleyCounts_Solution 
+    public class CountingValleys_Solution
     {
-        public static void altitudeingvalleyCounts() 
+        public static void CountingValleys() 
         {
             //TestCase-1
             //int steps = 8;
@@ -38,12 +38,8 @@ namespace HackerRank
             //TestCase-2
             int steps = 12;
             string path = "DDUUDDUDUUUD";
-
-            int result = altitudeingvalleyCounts_Result.altitudeingvalleyCounts(steps,path);
-
+            int result = CountingValleys_Result.CountingValleys(steps,path);
             Console.WriteLine(result);
-
         }
-
     }
 }
