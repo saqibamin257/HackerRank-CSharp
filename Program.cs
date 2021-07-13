@@ -23,12 +23,12 @@ namespace HackerRank
 
 
             #region Prob-3:Counting valleys
-            CountingValleys_Solution.CountingValleys();
+            //CountingValleys_Solution.CountingValleys();
             #endregion
 
 
             #region Prob-4:Jumping On the Cloud
-            //CloudsJumping_Solution.CloudsJumping();
+            CloudsJumping_Solution.CloudsJumping();
             #endregion
 
 
