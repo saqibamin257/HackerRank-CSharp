@@ -28,7 +28,11 @@ namespace HackerRank
 
 
             #region Prob-4:Jumping On the Cloud
-            CloudsJumping_Solution.CloudsJumping();
+            //CloudsJumping_Solution.CloudsJumping();
+            #endregion
+
+            #region Prob-5:Collapse Consecutive Characters
+            CollapseConsecutiveCharacters_Solution.CharactersCount();
             #endregion
 
 
