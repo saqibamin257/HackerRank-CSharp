@@ -32,11 +32,11 @@ namespace HackerRank
             #endregion
 
             #region Prob-5:Collapse Consecutive Characters
-            CollapseConsecutiveCharacters_Solution.CharactersCount();
+            //CollapseConsecutiveCharacters_Solution.CharactersCount();
             #endregion
 
             #region Prob-6: Equalize The Array
-            //EqualizeTheArray_Solution.Input();
+            EqualizeTheArray_Solution.Input();
             #endregion
 
         }
