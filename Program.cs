@@ -35,6 +35,9 @@ namespace HackerRank
             CollapseConsecutiveCharacters_Solution.CharactersCount();
             #endregion
 
+            #region Prob-6: Equalize The Array
+            //EqualizeTheArray_Solution.Input();
+            #endregion
 
         }
     }
