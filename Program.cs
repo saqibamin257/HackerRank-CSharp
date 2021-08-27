@@ -36,7 +36,15 @@ namespace HackerRank
             #endregion
 
             #region Prob-6: Equalize The Array
-            EqualizeTheArray_Solution.Input();
+            //EqualizeTheArray_Solution.Input();
+            #endregion
+
+            #region Prob-7: Queens Attack
+            //QueensAttack_Problem.Input();
+            #endregion
+
+            #region Prob-8:Repeated String
+            RepeatedString_Problem.Input();
             #endregion
 
         }
