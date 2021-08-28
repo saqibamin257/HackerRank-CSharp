@@ -44,8 +44,13 @@ namespace HackerRank
             #endregion
 
             #region Prob-8:Repeated String
-            RepeatedString_Problem.Input();
+            //RepeatedString_Problem.Input();
             #endregion
+
+            #region Prob-:HourGlass 2D Array
+            HourGlass_Solution.Input();
+            #endregion
+
 
         }
     }
