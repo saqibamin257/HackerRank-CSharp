@@ -48,7 +48,11 @@ namespace HackerRank
             #endregion
 
             #region Prob-:HourGlass 2D Array
-            HourGlass_Solution.Input();
+            //HourGlass_Solution.Input();
+            #endregion
+
+            #region Prob-ArrayLeftRotation
+            ArraysLeftRotation_Solution.Input();
             #endregion
 
 
