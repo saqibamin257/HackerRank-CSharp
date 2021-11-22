@@ -52,7 +52,17 @@ namespace HackerRank
             #endregion
 
             #region Prob-ArrayLeftRotation
-            ArraysLeftRotation_Solution.Input();
+            //ArraysLeftRotation_Solution.Input();
+            #endregion
+
+            #region Prob-NewYearChaos-Array
+            NewYearChaos_Solution.Input();
+                    
+            
+            #endregion
+
+            #region Prob-DuplicateCharacters
+            //DuplicateCharacters.PrintDuplicateCharacters();
             #endregion
 
 
