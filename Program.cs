@@ -56,15 +56,16 @@ namespace HackerRank
             #endregion
 
             #region Prob-NewYearChaos-Array
-            NewYearChaos_Solution.Input();
-                    
-            
+            //NewYearChaos_Solution.Input();
             #endregion
 
             #region Prob-DuplicateCharacters
             //DuplicateCharacters.PrintDuplicateCharacters();
             #endregion
 
+            #region Prob-MinimumSwapTwo
+            SwapAnyTwoElements_Solution.Input();
+            #endregion
 
         }
     }
