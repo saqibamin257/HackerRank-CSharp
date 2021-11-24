@@ -60,6 +60,7 @@ namespace HackerRank
 
         #region Program-3:Successfull
         //Program-3://Successfully passed all test cases
+        //loop through array and swap element to element-1 index element.
         public static int minimumSwaps(int[] arr)
         {
             int swapCount = 0;
