@@ -64,8 +64,16 @@ namespace HackerRank
             #endregion
 
             #region Prob-MinimumSwapTwo
-            SwapAnyTwoElements_Solution.Input();
+            //SwapAnyTwoElements_Solution.Input();
             #endregion
+
+            #region Prob-SelectionSort-KhanAcademy
+            //SelectionSort_KhanAcademy_Solution.Input();
+            #endregion
+
+            
+
+
 
         }
     }
