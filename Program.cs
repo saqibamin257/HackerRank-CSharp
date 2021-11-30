@@ -72,7 +72,11 @@ namespace HackerRank
             #endregion
 
             #region Prob-BubbleSort
-            BubbleSort_Solution.Input();
+            //BubbleSort_Solution.Input();
+            #endregion
+
+            #region Prob-MarkandToys-SortingProblem
+            MarkAndToys_Solution.Input();
             #endregion
 
 
