@@ -71,7 +71,9 @@ namespace HackerRank
             //SelectionSort_KhanAcademy_Solution.Input();
             #endregion
 
-            
+            #region Prob-BubbleSort
+            BubbleSort_Solution.Input();
+            #endregion
 
 
 
