@@ -76,10 +76,50 @@ namespace HackerRank
             #endregion
 
             #region Prob-MarkandToys-SortingProblem
-            MarkAndToys_Solution.Input();
+            //MarkAndToys_Solution.Input();
+            #endregion
+
+            #region Prob-InsertionSort_KhanAcademy
+            //InsertionSort_KhanAcademy_Solution.Input();
             #endregion
 
 
+            #region Prob-RecursionAlgorithms
+            //RecursionAlgorithms_Solution.Input();
+            #endregion
+
+            #region Prob-FindMissingOddNumber
+            //FindMissingOddNumbers_Solution.Input();
+            #endregion
+
+            #region Prob-FindAbsoluteDifference
+            //FindAbsoluteDifference_Solution.Input();
+            #endregion
+
+            #region Prob-HackerSampleTest_Solution
+            //SampleTest_Solution.Input();
+            #endregion
+
+            #region Prob-IsPalindrome-KhanAcademy
+            //IsPalindrome_Solution.Input();
+            #endregion
+
+            #region Prob-TwoSums_Solution-LeetCode
+            //TwoSums_Solution.Input();
+            #endregion
+
+            #region Prob-SlowestKey
+            //SlowestKey_Solution.slowestKey();
+            #endregion
+
+
+            #region Prob-BinarySearch
+            //BinarySearch_Result.Input();
+            #endregion
+
+            #region Prob-DiagonalDifference-2DArray
+            DiagonalDifference_Result.Input();
+            #endregion
 
         }
     }
