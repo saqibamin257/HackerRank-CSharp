@@ -118,7 +118,15 @@ namespace HackerRank
             #endregion
 
             #region Prob-DiagonalDifference-2DArray
-            DiagonalDifference_Result.Input();
+            //DiagonalDifference_Result.Input();
+            #endregion
+
+            #region Prob-RatioOf Positive Negative Zero elements
+            //PlusMinus_Result.Input();
+            #endregion
+
+            #region Prob-HashTable-Basics
+            HashTable_Result.Input();
             #endregion
 
         }
