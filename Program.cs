@@ -126,7 +126,11 @@ namespace HackerRank
             #endregion
 
             #region Prob-HashTable-Basics
-            HashTable_Result.Input();
+            //HashTable_Result.Input();
+            #endregion
+
+            #region Prob-RansomNote_Dictionary
+            RansomNote_Dictionary_Result.Input();
             #endregion
 
         }
