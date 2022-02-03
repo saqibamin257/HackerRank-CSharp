@@ -122,7 +122,7 @@ namespace HackerRank
             #endregion
 
             #region Prob-RatioOf Positive Negative Zero elements
-            //PlusMinus_Result.Input();
+            PlusMinus_Result.Input();
             #endregion
 
             #region Prob-HashTable-Basics
@@ -134,7 +134,11 @@ namespace HackerRank
             #endregion
 
             #region 31-Prob-TwoStrings_HashSet
-            TwoStrings_HashSet_Result.Input();
+            //TwoStrings_HashSet_Result.Input();
+            #endregion
+
+            #region 32-Prob-TwoStrings_HashSet
+            //CountTriplets_DictionaryHashMap_Result.Input();
             #endregion
 
         }
