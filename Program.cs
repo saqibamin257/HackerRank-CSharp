@@ -143,10 +143,13 @@ namespace HackerRank
 
 
             #region 33-Prob-MakingAnagrams_Dictionary
-            MakingAnagrams_Result.Input();
+            //MakingAnagrams_Result.Input();
             #endregion
-            
 
+            #region 33-Prob-MakingAnagrams_Dictionary
+            AlternatingCharacters_Result.Input();
+            #endregion
+    
         }
     }
 }
