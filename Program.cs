@@ -146,10 +146,15 @@ namespace HackerRank
             //MakingAnagrams_Result.Input();
             #endregion
 
-            #region 33-Prob-MakingAnagrams_Dictionary
-            AlternatingCharacters_Result.Input();
+            #region 34-Prob-MakingAnagrams_Dictionary
+            //AlternatingCharacters_Result.Input();
             #endregion
-    
+
+            #region 35-Prob-MakingAnagrams_Dictionary
+            SherlockAndValidString_Result.Input();
+            #endregion
+
         }
+
     }
 }
