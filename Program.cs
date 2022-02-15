@@ -142,18 +142,26 @@ namespace HackerRank
             #endregion
 
 
-            #region 33-Prob-MakingAnagrams_Dictionary
+            #region 33-Prob-MakingAnagrams_Dictionary-StringManipulation
             //MakingAnagrams_Result.Input();
             #endregion
 
-            #region 34-Prob-MakingAnagrams_Dictionary
+            #region 34-AlternatingCharacters-StringManipulation
             //AlternatingCharacters_Result.Input();
             #endregion
 
-            #region 35-Prob-MakingAnagrams_Dictionary
-            SherlockAndValidString_Result.Input();
+            #region 35-Prob-SherlockAndValidString-StringManipulation
+            //SherlockAndValidString_Result.Input();
             #endregion
 
+            #region 36-Prob-IceCreameParlor-SearchingAlgorithms
+            //IceCreameParlor_Result.Input();
+            #endregion
+
+            #region 37-Prob-MinimumTimeRequired-SearchingAlgorithms-BinarySearch
+            MinimumTimeRequired_Result.Input();
+            #endregion
+            
         }
 
     }
