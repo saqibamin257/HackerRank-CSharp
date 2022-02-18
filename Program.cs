@@ -5,7 +5,8 @@ using System.Text;
 namespace HackerRank
 {
    public class Program
-    {
+    {        
+
         public static void Main(string[] args) 
         {
             #region Prob-1:SalesByMatch
@@ -129,7 +130,7 @@ namespace HackerRank
             //HashTable_Result.Input();
             #endregion
 
-            #region Prob-RansomNote_Dictionary
+            #region Prob-RansomNote_Dictionary-WithTimeExecution-Calculation
             //RansomNote_Dictionary_Result.Input();
             #endregion
 
@@ -137,7 +138,7 @@ namespace HackerRank
             //TwoStrings_HashSet_Result.Input();
             #endregion
 
-            #region 32-Prob-TwoStrings_HashSet
+            #region 32-Prob_CountTriplets_DictionaryHashMap
             //CountTriplets_DictionaryHashMap_Result.Input();
             #endregion
 
@@ -159,10 +160,23 @@ namespace HackerRank
             #endregion
 
             #region 37-Prob-MinimumTimeRequired-SearchingAlgorithms-BinarySearch
-            MinimumTimeRequired_Result.Input();
+            //MinimumTimeRequired_Result.Input();
             #endregion
-            
-        }
 
+            #region 38-Prob-TryCatchFinally
+            //TryCatchFinally_Solution.Input();
+            #endregion
+
+
+            #region 39-Breakfast-SynchoronousProgramming-WithTimeExecution
+            //Synchoronous_Programming_Result.BreakFast();
+            #endregion
+
+            #region 39-Breakfast-SynchoronousProgramming-WithTimeExecution
+            ASynchoronous_Programming_Result.BreakFast();
+            #endregion
+
+
+        }
     }
 }
