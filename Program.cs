@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,7 +22,6 @@ namespace HackerRank
             //Please See Q2 pdf for question details.
             //DrawingBook_Solution.DrawingBook();
             #endregion
-
 
             #region Prob-3:Counting valleys
             //CountingValleys_Solution.CountingValleys();
@@ -172,13 +172,22 @@ namespace HackerRank
             //Synchoronous_Programming_Result.BreakFast();
             #endregion
 
-            #region 39-Breakfast-SynchoronousProgramming-WithTimeExecution
+            #region 40-Breakfast-AynchoronousProgramming-CompositeFunction
             //ASynchoronous_Programming_Result_Stage1.BreakFast();
             //ASynchoronous_Programming_Result_Stage2.BreakFast();
-            ASynchoronous_Programming_Result_Stage3.BreakFast();
+            //ASynchoronous_Programming_Result_Stage3.BreakFast();
             #endregion
 
+            #region 41-Asynchoronous_ReadDataFromNetwork     
+            //Note: before using this example, please change public static void Main(string[] args)
+            //      to
+            //      public static async Task Main(string[] args).
 
+            //Asynchoronous_ReadDataFromNetwork_Result obj = new Asynchoronous_ReadDataFromNetwork_Result();
+            //int result = await obj.GetDotNetCountAsync();
+            //int result = await obj.GetDotNetCount1Async();
+            //Console.WriteLine($"Total number of counts for .Net word are: {result}");                        
+            #endregion
         }
     }
 }
