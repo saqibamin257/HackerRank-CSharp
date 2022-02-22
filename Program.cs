@@ -173,7 +173,9 @@ namespace HackerRank
             #endregion
 
             #region 39-Breakfast-SynchoronousProgramming-WithTimeExecution
-            ASynchoronous_Programming_Result.BreakFast();
+            //ASynchoronous_Programming_Result_Stage1.BreakFast();
+            //ASynchoronous_Programming_Result_Stage2.BreakFast();
+            ASynchoronous_Programming_Result_Stage3.BreakFast();
             #endregion
 
 
