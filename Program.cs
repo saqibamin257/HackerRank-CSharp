@@ -188,6 +188,8 @@ namespace HackerRank
             //int result = await obj.GetDotNetCount1Async();
             //Console.WriteLine($"Total number of counts for .Net word are: {result}");                        
             #endregion
+
+            MinimumAbsoluteDifference_GreedySearch_Solution.Input();
         }
     }
 }
