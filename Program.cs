@@ -189,7 +189,13 @@ namespace HackerRank
             //Console.WriteLine($"Total number of counts for .Net word are: {result}");                        
             #endregion
 
-            MinimumAbsoluteDifference_GreedySearch_Solution.Input();
+            #region 42-MinimumAbsoluteDifference_GreedySearch
+            //MinimumAbsoluteDifference_GreedySearch_Solution.Input();
+            #endregion
+
+            #region 43-LuckBalance_GreedySearch-2DArray
+            LuckBalance_Solution.Input2();
+            #endregion
         }
     }
 }
