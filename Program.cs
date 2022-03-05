@@ -198,11 +198,13 @@ namespace HackerRank
             #endregion
 
             #region 44-TotalSaturdaysInMonth
-            CountSaturday_Result.Input();
+            //CountSaturday_Result.Input();
             #endregion
 
+            #region 45-GreedyFlorist_Result
+            GreedyFlorist_Result.Input();
+            #endregion
 
-            
         }
     }
 }
