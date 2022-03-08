@@ -211,9 +211,16 @@ namespace HackerRank
 
             #region 47-Indexer_CSHARP_Concept
             //An indexer is a smart array that enables an instance of a class or structure to be indexed like an array.
-            Indexer_Result.Input();
+            //Indexer_Result.Input();
             #endregion
-            
+
+            #region 48-Properties_CSHARP_Concept
+            //Properties are used for encapsulation,
+            //The definition of encapsulation is "the action of enclosing something in or as if in a capsule".
+            //Removing access to parts of your code and making things private is exactly what Encapsulation is all
+            //about(often times, people refer to it as data hiding).
+            Properties_Result.Input();
+            #endregion
 
         }
     }
