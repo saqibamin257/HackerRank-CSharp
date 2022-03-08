@@ -167,6 +167,9 @@ namespace HackerRank
             //TryCatchFinally_Solution.Input();
             #endregion
 
+            #region 38(b)-TryCatchFinally-Exercise-2
+            checkException_Result.Input();
+            #endregion
 
             #region 39-Breakfast-SynchoronousProgramming-WithTimeExecution
             //Synchoronous_Programming_Result.BreakFast();
@@ -219,7 +222,8 @@ namespace HackerRank
             //The definition of encapsulation is "the action of enclosing something in or as if in a capsule".
             //Removing access to parts of your code and making things private is exactly what Encapsulation is all
             //about(often times, people refer to it as data hiding).
-            Properties_Result.Input();
+
+            //Properties_Result.Input();
             #endregion
 
         }
