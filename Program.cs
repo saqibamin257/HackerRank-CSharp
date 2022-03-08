@@ -201,9 +201,19 @@ namespace HackerRank
             //CountSaturday_Result.Input();
             #endregion
 
-            #region 45-GreedyFlorist_Result
-            GreedyFlorist_Result.Input();
+            #region 45-GreedyFlorist_GreedySearch
+            //GreedyFlorist_Result.Input();
             #endregion
+
+            #region 46-MaxArraySum_NonAdjacentElements
+            //MaxArraySum_NonAdjacentElements_Result.Input();
+            #endregion
+
+            #region 47-Indexer_CSHARP_Concept
+            //An indexer is a smart array that enables an instance of a class or structure to be indexed like an array.
+            Indexer_Result.Input();
+            #endregion
+            
 
         }
     }
