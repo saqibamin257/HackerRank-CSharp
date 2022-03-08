@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
+    //NOTE: try catch and finally run in sequence, if there is throw in catch then it wont run further and exit the program with
+    // exception message.
+
+
     internal class TryCatchFinally_Result
     {
         int result;
@@ -21,12 +25,12 @@ namespace HackerRank
             }
             catch (DivideByZeroException e)
             {
-                throw e;
-                //Console.WriteLine("Exception caught: {0}", e);
+                //throw e;
+                Console.WriteLine("Exception caught: {0}", e);
             }
             finally
             {
-                Console.WriteLine($"result :{result}");
+                Console.WriteLine($"result executes when no throw e :{result}");
             }
         }
     }
