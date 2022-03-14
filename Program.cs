@@ -242,13 +242,24 @@ namespace HackerRank
             //Return array of name including names in first arary and second array but without duplication
 
             //(a)-Using Hashset
-            UnionOfArray_Result.Input_Hashset();
+            //UnionOfArray_Result.Input_Hashset();
 
             //(b)-Using Union
-            UnionOfArray_Result.Input_Union();
+            //UnionOfArray_Result.Input_Union();
             #endregion
 
 
+            #region 54-Interface-DependencyInjection-TestDome
+            AlertDAO alert = new AlertDAO();
+            AlertService service = new AlertService(alert);
+            
+            Guid id=  service.RaiseAlert();
+            Console.WriteLine($"Raise alert id: {id}");
+
+            DateTime time = service.GetAlertTime(id);
+            Console.WriteLine($"Alert Time : {time}");
+
+            #endregion
         }
     }
 }
