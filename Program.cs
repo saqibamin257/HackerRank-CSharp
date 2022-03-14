@@ -235,8 +235,20 @@ namespace HackerRank
             //#endregion
 
             #region 52-BalancedBrackets-Wihtout-STACK
-            BalancedBracket2_Result.Input();
+            //BalancedBracket2_Result.Input();
             #endregion
+
+            #region 53-TestDome-UnionOfArray
+            //Return array of name including names in first arary and second array but without duplication
+
+            //(a)-Using Hashset
+            UnionOfArray_Result.Input_Hashset();
+
+            //(b)-Using Union
+            UnionOfArray_Result.Input_Union();
+            #endregion
+
+
         }
     }
 }
