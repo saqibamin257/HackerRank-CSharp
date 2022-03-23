@@ -250,15 +250,52 @@ namespace HackerRank
 
 
             #region 54-Interface-DependencyInjection-TestDome
-            AlertDAO alert = new AlertDAO();
-            AlertService service = new AlertService(alert);
+            //AlertDAO alert = new AlertDAO();
+            //AlertService service = new AlertService(alert);
+
+            //Guid id=  service.RaiseAlert();
+            //Console.WriteLine($"Raise alert id: {id}");
+
+            //DateTime time = service.GetAlertTime(id);
+            //Console.WriteLine($"Alert Time : {time}");
+            #endregion
+
+
+            #region 57-HackerRank-Sample-Test
+            //-1-Calling PinchClaws() on an instance of CoconutCrab will return "CLAP CLAP".
+            CoconutCrab cocoCrab = new CoconutCrab();
+            Console.WriteLine($"CoconutCrab:{cocoCrab.PinchClaws()}");
+
+            //-2-Calling PinchClaws() on an instance of Crab will return "clap clap".
+            Crab crab = new Crab();
+            Console.WriteLine($"Crab:{crab.PinchClaws()}");
+
+            //-3-Casting an instance of CoconutCrab into Crab and then calling the PinchClaws method will return "Clap Clap".
+            //------> child class can be casted into parent class
+            var objCoco = new CoconutCrab();
+            var objCrab = (Crab)objCoco;
+            Console.WriteLine($"Casted instance of CoconutCrab into Crab: {objCrab.PinchClaws()}");
             
-            Guid id=  service.RaiseAlert();
-            Console.WriteLine($"Raise alert id: {id}");
 
-            DateTime time = service.GetAlertTime(id);
-            Console.WriteLine($"Alert Time : {time}");
+            //-4-Casting an instance of Crab into CoconutCrab and then calling the PinchClaws method will return "clap clap".
+            //output ----> we can not cast child class into parent class. 
 
+            //var Obj_Crab = new Crab();
+            //var Obj_CoCo = (CoconutCrab)Obj_Crab;
+            //Console.WriteLine($"Casted instance of Crab into CoconutCrab : {Obj_CoCo.PinchClaws()}");
+
+
+
+
+            #endregion
+
+
+            #region 58-HackerRank-Sample-Test
+            //HackerRankSampleTest_Result.Input();
+            #endregion
+
+            #region 59-StairCase
+            //StairCase_HackerRank.staircase();
             #endregion
         }
     }
