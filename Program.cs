@@ -312,8 +312,14 @@ namespace HackerRank
             #endregion
 
             #region 60-Grading Student
-            GradingStudent_Result.Input();
+            //GradingStudent_Result.Input();
             #endregion
+
+            #region 61- Queue DataStructure
+            Queue_DataStructure_Result.Input();
+            #endregion
+
+
         }
     }
 }
