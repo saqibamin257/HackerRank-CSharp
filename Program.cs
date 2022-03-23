@@ -261,21 +261,34 @@ namespace HackerRank
             #endregion
 
 
+            #region 56-Add(Concate) Only Numeric Input
+            string str = "1abc23h4"; //output 1234
+            
+            NumericInput objNumberic = new NumericInput();
+            
+            for (int i = 0; i < str.Length; i++) 
+            {
+                objNumberic.Add(str[i]);
+            }
+            Console.WriteLine(objNumberic.GetValue());
+            #endregion
+
+
             #region 57-HackerRank-Sample-Test
             //-1-Calling PinchClaws() on an instance of CoconutCrab will return "CLAP CLAP".
-            CoconutCrab cocoCrab = new CoconutCrab();
-            Console.WriteLine($"CoconutCrab:{cocoCrab.PinchClaws()}");
+            //CoconutCrab cocoCrab = new CoconutCrab();
+            //Console.WriteLine($"CoconutCrab:{cocoCrab.PinchClaws()}");
 
             //-2-Calling PinchClaws() on an instance of Crab will return "clap clap".
-            Crab crab = new Crab();
-            Console.WriteLine($"Crab:{crab.PinchClaws()}");
+            //Crab crab = new Crab();
+            //Console.WriteLine($"Crab:{crab.PinchClaws()}");
 
             //-3-Casting an instance of CoconutCrab into Crab and then calling the PinchClaws method will return "Clap Clap".
             //------> child class can be casted into parent class
-            var objCoco = new CoconutCrab();
-            var objCrab = (Crab)objCoco;
-            Console.WriteLine($"Casted instance of CoconutCrab into Crab: {objCrab.PinchClaws()}");
-            
+            //var objCoco = new CoconutCrab();
+            //var objCrab = (Crab)objCoco;
+            //Console.WriteLine($"Casted instance of CoconutCrab into Crab: {objCrab.PinchClaws()}");
+
 
             //-4-Casting an instance of Crab into CoconutCrab and then calling the PinchClaws method will return "clap clap".
             //output ----> we can not cast child class into parent class. 
