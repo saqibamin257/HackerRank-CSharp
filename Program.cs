@@ -262,15 +262,15 @@ namespace HackerRank
 
 
             #region 56-Add(Concate) Only Numeric Input
-            string str = "1abc23h4"; //output 1234
-            
-            NumericInput objNumberic = new NumericInput();
-            
-            for (int i = 0; i < str.Length; i++) 
-            {
-                objNumberic.Add(str[i]);
-            }
-            Console.WriteLine(objNumberic.GetValue());
+            //string str = "1abc23h4"; //output 1234
+
+            //NumericInput objNumberic = new NumericInput();
+
+            //for (int i = 0; i < str.Length; i++) 
+            //{
+            //    objNumberic.Add(str[i]);
+            //}
+            //Console.WriteLine(objNumberic.GetValue());
             #endregion
 
 
@@ -309,6 +309,10 @@ namespace HackerRank
 
             #region 59-StairCase
             //StairCase_HackerRank.staircase();
+            #endregion
+
+            #region 60-Grading Student
+            GradingStudent_Result.Input();
             #endregion
         }
     }
