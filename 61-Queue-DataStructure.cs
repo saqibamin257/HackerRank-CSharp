@@ -85,13 +85,7 @@ namespace HackerRank
             {
                 Console.WriteLine(n);
             }
-
-
         }
-
-
-
-
     }
 
     internal class Queue_DataStructure_Result 
