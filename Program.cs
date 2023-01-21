@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace HackerRank
 {
@@ -330,9 +331,68 @@ namespace HackerRank
             #endregion
 
             #region 65- Fibonnaci Series
-
-            FibonnacciSeries_Result.Input();
+            //FibonnacciSeries_Result.Input();
             #endregion
+
+            #region 66- DigitalRecursiveSum
+            //DigitalRecursiveSum_Result.Input();
+            #endregion
+
+            #region 67- ArrayManipulation
+            //DigitalRecursiveSum_Result.Input();
+            #endregion
+
+            //string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+
+            //int n = Convert.ToInt32(firstMultipleInput[0]);
+
+            //int m = Convert.ToInt32(firstMultipleInput[1]);
+
+            //List<List<int>> queries = new List<List<int>>();
+
+            //for (int i = 0; i < m; i++)
+            //{
+            //    queries.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(queriesTemp => Convert.ToInt32(queriesTemp)).ToList());
+            //}
+
+            //long result = ArrayManipulation_Solution.arrayManipulation(n, queries);
+
+
+            //************************/////
+            //string[] inString = Console.ReadLine().Split(' ');
+            //uint[] initParams = Array.ConvertAll(inString, UInt32.Parse);
+            //uint n = initParams[0];
+            //uint m = initParams[1];
+
+            //long[] numList = new long[n + 1];
+
+            //for (int i = 0; i < m; i++)
+            //{
+            //    string[] opString = Console.ReadLine().Split(' ');
+            //    uint a = UInt32.Parse(opString[0]);
+            //    uint b = UInt32.Parse(opString[1]);
+            //    long k = long.Parse(opString[2]);
+
+            //    numList[a] += k;
+            //    if (b + 1 <= n) numList[b + 1] -= k;
+            //}
+
+            //long tempMax = 0;
+            //long max = 0;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    tempMax += numList[i];
+            //    if (tempMax > max) max = tempMax;
+            //}
+
+            //Console.WriteLine(max.ToString());
+
+            #region 68-BinarySearchTree
+            //-----------------Binary Search Tree-------------------------//
+            BinarySearhTree_Solution objBST = new BinarySearhTree_Solution();
+            objBST.BST();
+            #endregion
+
         }
     }
 }
