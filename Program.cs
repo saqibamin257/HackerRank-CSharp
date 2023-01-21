@@ -389,9 +389,15 @@ namespace HackerRank
 
             #region 68-BinarySearchTree
             //-----------------Binary Search Tree-------------------------//
-            BinarySearhTree_Solution objBST = new BinarySearhTree_Solution();
-            objBST.BST();
+            //BinarySearhTree_Solution objBST = new BinarySearhTree_Solution();
+            //objBST.BST();
             #endregion
+
+            #region 69-Duplicate Charaters in String
+            new FindDuplcateCharacters_Solution().Input();
+            #endregion
+
+
 
         }
     }
