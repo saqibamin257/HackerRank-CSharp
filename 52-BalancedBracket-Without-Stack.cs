@@ -32,8 +32,11 @@ namespace HackerRank
             //string str = "{[()]}"; //output YES
             //string str = "{[(])}"; //output NO
             //string str = "{{[[(())]]}}"; //output YES
-            string str = "{[(])}"; //output NO
+            //string str = "{[(])}"; //output NO
             //string str = "{(([])[])[]}"; //YES
+            //string str = "(coder)(byte))";
+            string str = "((coder)(byte))";
+
 
             string result = BalancedBracket2_Solution.isBalanced(str);
             Console.WriteLine(result);
