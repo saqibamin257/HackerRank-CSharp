@@ -400,7 +400,7 @@ namespace HackerRank
             #region 70-Binary Tree Constructor - CoderByte
             //new TreeConstructor_Result().Input();
             #endregion
-            
+
             #region 71-Bracket- Matcher - CoderByte
             //int result = new BracketMatcher_CoderByte_Solution().checkBracketMatched();
             //Console.WriteLine(result);
@@ -411,9 +411,19 @@ namespace HackerRank
             //Console.WriteLine(result);
             #endregion
 
-            #region 73-LongestWord_CoderByte
-            string result = new LongestWord_CoderByte().LongestWord();
-            Console.WriteLine(result);
+            //#region 73-LongestWord_CoderByte
+            //string result = new LongestWord_CoderByte().LongestWord();
+            //Console.WriteLine(result);
+            //#endregion
+
+            #region 74- PrimeNumber
+            int start = 10;
+            int end = 100;
+            List<int> MyList = new CreativeChaos_FindPrimeNumberFromRange().PrimeNumbers(start,end);
+            foreach (int i in MyList) 
+            {
+                Console.WriteLine(i);
+            }
             #endregion
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
-    public class ContourTest
+    public class TestQuiz
     {
 
     }
