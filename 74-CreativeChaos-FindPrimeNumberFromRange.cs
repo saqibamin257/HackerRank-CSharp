@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
-    public class CreativeChaos_FindPrimeNumber
+    public class CreativeChaos_FindPrimeNumberFromRange
     {
         public List<int> PrimeNumbers(int start, int End) 
         {
-            // start =10
-            // End =100
-            // 10/10 == 0;
-
-
             List<int> result = new List<int>();
             
             for (int i = start; i <= End; i++) 
